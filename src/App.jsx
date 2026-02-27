@@ -138,7 +138,6 @@ const App = () => {
       <section id="contact" className="section-container">
         <div className="contact-box">
           <h2 className="section-title">Get In Touch</h2>
-          <p>Available for freelance projects and full-time opportunities.</p>
           <div className="contact-links">
             <a href="https://github.com/sinan742/Muhammed-Sinan-A.git">GitHub</a>
             <a href="https://www.linkedin.com/in/muhammed-sinan-a-5a522536b">LinkedIn</a>

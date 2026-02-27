@@ -34,7 +34,7 @@ const App = () => {
   const projects = [
     { 
       title: 'Beyond The Pitch', 
-      desc: 'Full-stack e-commerce platform for football gear. Integrated with secure payment systems and Django Signals.',
+      desc: 'Full-stack e-commerce platform for football gear. Implemented Django Signals to automate order status changes and trigger backend actions from the admin panel.',
       img: 'ecommerce.PNG', 
       tags: ['React', 'Django', 'PostgreSQL']
     },

@@ -35,13 +35,13 @@ const App = () => {
     { 
       title: 'Beyond The Pitch', 
       desc: 'Full-stack e-commerce platform for football gear. Integrated with secure payment systems and Django Signals.',
-      img: 'beyond-pitch.webp', 
+      img: 'ecommerce.PNG', 
       tags: ['React', 'Django', 'PostgreSQL']
     },
     { 
       title: 'SLMS Portal', 
       desc: 'Student Learning Management System developed to streamline academic tracking and records.',
-      img: 'Capture.PNG', 
+      img: 'slms.PNG', 
       tags: ['Python', 'Django', 'HTML/CSS']
     },
   ];
@@ -76,7 +76,7 @@ const App = () => {
       <section id="home" className="hero">
         <div className="hero-content">
           <div className="hero-img-box">
-             <img src="sinan.webp" alt="Sinan" />
+             <img src="myimage.png" alt="Sinan" />
           </div>
           <p className="intro-tag">Hello, I am</p>
           <h1>MUHAMMED SINAN A</h1>
@@ -139,7 +139,7 @@ const App = () => {
         <div className="contact-box">
           <h2 className="section-title">Get In Touch</h2>
           <div className="contact-links">
-            <a href="https://github.com/sinan742/Muhammed-Sinan-A.git">GitHub</a>
+            <a href="https://github.com/sinan742/">GitHub</a>
             <a href="https://www.linkedin.com/in/muhammed-sinan-a-5a522536b">LinkedIn</a>
             <a href="https://wa.me/918281025986">WhatsApp</a>
           </div>

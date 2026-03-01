@@ -72,7 +72,6 @@ const App = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
       <section id="home" className="hero">
         <div className="hero-content">
           <div className="hero-img-box">

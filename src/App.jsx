@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import { FaGithub, FaLinkedin, FaWhatsapp,FaEnvelope } from "react-icons/fa";
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -135,15 +136,29 @@ const App = () => {
 
       {/* Contact Section */}
       <section id="contact" className="section-container">
-        <div className="contact-box">
-          <h2 className="section-title">Get In Touch</h2>
-          <div className="contact-links">
-            <a href="https://github.com/sinan742/">GitHub</a>
-            <a href="https://www.linkedin.com/in/muhammed-sinan-a-5a522536b">LinkedIn</a>
-            <a href="https://wa.me/918281025986">WhatsApp</a>
-          </div>
-        </div>
-      </section>
+  <div className="contact-box">
+    <h2 className="section-title">Get In Touch</h2>
+
+    <div className="contact-links">
+      
+      <a href="https://github.com/sinan742/" target="_blank" rel="noreferrer">
+        <FaGithub size={20} /> GitHub
+      </a>
+
+      <a href="https://www.linkedin.com/in/muhammed-sinan-a-5a522536b" target="_blank" rel="noreferrer">
+        <FaLinkedin size={20} /> LinkedIn
+      </a>
+
+      <a href="https://wa.me/918281025986" target="_blank" rel="noreferrer">
+        <FaWhatsapp size={20} /> WhatsApp
+      </a>
+      <a href="mailto:muhdsinan8281@gmail.com">
+  <FaEnvelope size={20} /> Gmail
+</a>
+
+    </div>
+  </div>
+</section>
     </div>
   );
 };
